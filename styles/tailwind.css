@@ -3,7 +3,22 @@
 @tailwind utilities;
 
 @layer utilities {
-  .change {
-    color: black;
+  .container {
+    @apply max-w-screen-xl mx-auto px-4
+  }
+  section {
+    @apply pb-24 md:pb-48
+  }
+  .button {
+    @apply w-full flex items-center justify-center px-8 py-4 border text-lg font-bold rounded-full shadow md:shadow-xl md:w-auto md:px-10 
+  }
+  .primary-button {
+    @apply text-white bg-primary hover:bg-primary-dark border-none lg:py-6 lg:px-12
+  }
+  .secondary-button {
+    @apply border-primary text-primary shadow-none
+  }
+  .white-button {
+    @apply bg-white text-primary hover:bg-gray-100 border-none lg:py-6 lg:px-12
   }
 }
