@@ -21,4 +21,9 @@
   .white-button {
     @apply bg-white text-primary hover:bg-gray-100 border-none lg:py-6 lg:px-12
   }
+  .show-bar {
+    display:flex;
+    opacity:1;
+    transition:all .25s ease;
+  }
 }

@@ -9,3 +9,31 @@
     </div>
   </div>
 </footer>
+<script type="text/javascript">
+    function getUrlParameter(name) {
+      name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+      var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+      var results = regex.exec(location.search);
+      return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+    };
+    if(getUrlParameter('ref') === 'indiehackers'){        
+      let offerBar = document.getElementById('offer');
+      let offerCode = document.querySelector('#offer .offer-code');        
+      offerBar.classList.add('show-bar');      
+      offerBar.style.backgroundColor = '#0D2032';
+      offerCode.innerHTML = 'indie25';        
+    }
+    if(getUrlParameter('ref') === 'producthunt'){        
+      let offerBar = document.getElementById('offer');
+      let offerCode = document.querySelector('#offer .offer-code');        
+      offerBar.classList.add('show-bar');
+      offerBar.style.backgroundColor = '#DA562E';
+      offerCode.innerHTML = 'ph25';        
+    }
+    if(getUrlParameter('ref') === 'revive'){        
+      let offerBar = document.getElementById('offer');
+      let offerCode = document.querySelector('#offer .offer-code');        
+      offerBar.classList.add('show-bar');      
+      offerCode.innerHTML = 'revive25';        
+    }
+    </script>
