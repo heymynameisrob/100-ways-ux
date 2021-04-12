@@ -1,0 +1,21 @@
+{% extends "_includes/list.njk" %}
+
+{% block content %}  
+<div class="container">
+  <ul class="block grid-cols-3 gap-6 md:grid mb-24 lg:-mt-16">
+  {%- for post in collections.post -%}
+    <li class="rounded-lg bg-white shadow-lg overflow-hidden mb-6 md:mb-0 md:rounded-xl md:shadow-xl">
+      <a href="{{ post.url }}" class="block object-fit object-cover max-h-48 overflow-hidden">
+        <img src="{{post.data.featuredImg}}" alt="{{ post.data.title }}" class="w-full" loading="lazy" />
+      </a>
+      <div class="flex justify-center items-start flex-col space-y-4 p-4">
+        <small class="py-1 px-3 uppercase font-bold text-sm bg-red-100 text-red-900 rounded-full">{{post.data.type}}</small>
+        <h2 class="text-xl md:text-3xl font-bold text-gray-900 md:leading-tight">{{ post.data.title }}</h2>
+        <p class="text-base md:text-lg md:leading-normal text-gray-700">{{ post.data.description }}</p>
+        <a href="{{ post.url }}" class="inline-block text-base md:text-lg font-bold underline text-primary">Read article 👉</a>
+      </div>
+    </li>
+  {%- endfor -%}
+  </ul>
+</div>
+{% endblock %}

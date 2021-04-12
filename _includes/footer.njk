@@ -9,6 +9,18 @@
     </div>
   </div>
 </footer>
+ <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
 <script type="text/javascript">
     function getUrlParameter(name) {
       name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
@@ -36,4 +48,4 @@
       offerBar.classList.add('show-bar');      
       offerCode.innerHTML = 'revive25';        
     }
-    </script>
+</script>

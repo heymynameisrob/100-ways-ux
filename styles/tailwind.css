@@ -26,4 +26,7 @@
     opacity:1;
     transition:all .25s ease;
   }
+  .blog-content {
+    @apply pt-24
+  }
 }
