@@ -17,3 +17,25 @@ Lots of onboarding UX is at best a costly exchange for the user and at worst a f
 Here are 5 top tips your can apply to any onboarding process to make it seamless and effective.
 
 ## Understand the Job To Be Done
+Knowing what value you bring to users and why they are using your product or "hiring you" is essential. Without a good understanding of this you can't hope to onboard anyone properly. 
+
+The best way to start figuring out your JTBD for your product is to talk to customers. Understanding what their problems are with help you define your jobs to be done. It could be as simple as asking them directly: 'Why do you use our product?'
+
+You can find more on writing JTBD here
+
+## The Law of Reciprocity
+Human beings by their very nature feel the need to help each other. Especially when someone has already helped us. Cultural anthropologists call this 'the web of indebtness'. It's key to our evolution. It allowed us form communities and tight social bonds. 
+
+The law of reciprocity is key for figuring out how your onboarding should be structured. Think of your product as a human-to-human transaction. You wouldn't expect someone to go completely out there way without giving them an icentive or show them value first. However, the person who makes the first move will then trigger an debt with the other person which they will feel obliged to complete.
+
+Make sure you give users something for signing up. Break out the information required into small chunks and give some value every step of the way.
+
+## Personalise copy
+
+## Show, don't tell
+
+## Get to your Aha moment
+
+These are just some strategies than can improve your user experience. Applying these strategies will improve the percieved value of your product and help make sure users are well orientated and ready to engage.
+
+
